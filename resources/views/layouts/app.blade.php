@@ -83,7 +83,6 @@
         <script src="{{ asset('js/revoulation.js') }}"></script>
 
         @if(Request::segment(2) === 'contact')
-          <script src="https://maps.google.com/maps/api/js?key=AIzaSyCq6i9m9Fj6zWJwmVujSZUw0E8M54WF53M"></script>
           <script type="text/javascript"src="{{ asset('js/google-map-init-multilocation.js') }}"></script>
         @endif
 
